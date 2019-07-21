@@ -17,5 +17,6 @@ class Transfer
     end
   end
  
- def execute
+ def execute_transaction
+end
 end
