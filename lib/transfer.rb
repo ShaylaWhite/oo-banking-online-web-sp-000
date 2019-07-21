@@ -17,5 +17,5 @@ class Transfer
     end
   end
  
- def 
+ def execute
 end
