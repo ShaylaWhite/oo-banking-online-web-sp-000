@@ -1,3 +1,20 @@
 class BankAccount
+  attr_reader :name
+  attr_accessor :balance, :status
+  
+  def initialize(name)
+    @name = name 
+    @balance = 1000
+    @BankAccount = []
+    @status = "open"
+  end
 
+    def deposit(money)
+    @BankAccount << money
+    @balance += money
+  end
+  
+   def display_balance
+     @balance
+   end
 end
