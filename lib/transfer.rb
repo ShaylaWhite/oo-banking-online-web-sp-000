@@ -17,6 +17,8 @@ class Transfer
     end
   end
  
-  def execute_
+  def transction
   end
+  
+  
 end
